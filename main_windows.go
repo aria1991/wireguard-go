@@ -11,11 +11,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"golang.zx2c4.com/wireguard/conn"
-	"golang.zx2c4.com/wireguard/device"
-	"golang.zx2c4.com/wireguard/ipc"
+	"github.com/RunawayVPN/wireguard-go/conn"
+	"github.com/RunawayVPN/wireguard-go/device"
+	"github.com/RunawayVPN/wireguard-go/ipc"
 
-	"golang.zx2c4.com/wireguard/tun"
+	"github.com/RunawayVPN/wireguard-go/tun"
 )
 
 const (

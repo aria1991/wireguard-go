@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.zx2c4.com/wireguard/conn"
-	"golang.zx2c4.com/wireguard/ratelimiter"
-	"golang.zx2c4.com/wireguard/rwcancel"
-	"golang.zx2c4.com/wireguard/tun"
+	"github.com/RunawayVPN/wireguard-go/conn"
+	"github.com/RunawayVPN/wireguard-go/ratelimiter"
+	"github.com/RunawayVPN/wireguard-go/rwcancel"
+	"github.com/RunawayVPN/wireguard-go/tun"
 )
 
 type Device struct {
